@@ -1,22 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
     <head>
         <title>mon portefeuille</title>
         <meta charset="utf-8" />
+        <link rel="stylesheet" href="STYLE/style.css">
     </head>
     <body>
     <!--balise de navigation-->
     <header>
-    <nav>
-        <a href="/accueil/">ACCUEIL</a>
-        <a href="/à propos/">A PROPOS</a>
-        <a href="/travail/">TRAVAIL</a>
-        <a href="/cv/">CV</a>
-        <a href="/contact/">CONTACT</a>
+    <nav style="text-align: center;">
+        <div>
+        <a class="one" href="/accueil/">ACCUEIL</a>
+        <a  class="two" href="/à propos/">A PROPOS</a>
+        <a  class="three" href="/travail/">TRAVAIL</a>
+        <a  class="four" href="/cv/">CV</a>
+        <a  class="five" href="/contact/">CONTACT</a>
+        </div>
         </nav>
     </header>
     <br><br>
         <!--balise section-->
+        <h1>formulaire</h1>
         <form>
         <label>à propos</label>
         <input type="text" name="à propos" />
@@ -28,7 +32,8 @@
         <input type="text" name="cv" />
         <br><br>
         <label>contact</label>
-        <input type="number" name="contact" />
+        <input type="number" name="contact" /><br>
+        <button type="submit">soumettre</button>
         <br><br>
         </form>
         <br><br>
@@ -37,13 +42,14 @@
         <iframe width="560" height="315" src="https://www.youtube.com/embed/O1rXr_QGv1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <!-- utilisation d'un audio -->
         <h1>media</h1>
-        <audio controls="controls">
-            <source src="gomycode.m4a" type="audio/m4a">
+        <audio controls>
+            <source src="/audio.html/gomycode.mp3">
         </audio> 
         <!-- j'utilise la balise lien -->
+        <H1>lien</H1>
         <br><a href="https://youtu.be/gIHPRUTx0zU">reconversion d'une technicienne electrique en developpeuse web</a><br>
         <!-- utilisation de la balise footer -->
         <br><br>
-        <footer>copyright 2023</footer>
+        <footer style="text-align: center;">copyright halilll senegal 2023</footer>
  </body>
 </html>
